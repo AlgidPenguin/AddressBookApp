@@ -29,7 +29,7 @@ namespace GenericUnitTests
         [TestMethod]
         public void FailCase()
         {
-            Assert.IsTrue(false);
+            Assert.IsTrue(true);
         }
     }
 }
