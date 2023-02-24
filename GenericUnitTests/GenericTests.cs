@@ -13,6 +13,12 @@ namespace GenericUnitTests
         }
 
         [TestMethod]
+        public void PassCaseTwo()
+        {
+            Assert.IsTrue(true);
+        }
+
+        [TestMethod]
         public void FailCase()
         {
             Assert.IsTrue(false);
