@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Diagnostics;
 
 namespace GenericUnitTests
 {
@@ -15,6 +16,13 @@ namespace GenericUnitTests
         [TestMethod]
         public void PassCaseTwo()
         {
+            Assert.IsTrue(true);
+        }
+
+        [TestMethod]
+        public void PassCaseThree()
+        {
+            Debug.WriteLine("Test");
             Assert.IsTrue(true);
         }
 
