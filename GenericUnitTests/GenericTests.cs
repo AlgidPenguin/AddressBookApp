@@ -31,5 +31,11 @@ namespace GenericUnitTests
         {
             Assert.IsTrue(false);
         }
+
+        [TestMethod]
+        public void FailCaseTwo()
+        {
+            Assert.IsTrue(false);
+        }
     }
 }
